@@ -1,8 +1,8 @@
 puts "Are you solving for a leg or the hypotenuse? (input l for leg or h for hypotenuse)\r\n"
-h = "h"
-h = gets.chomp
-#puts "h is " + h
-if h == "h" or h == "H"
+
+choice = gets.chomp.downcase
+
+if choice == "h"
 then                          # solve for hypotenuse
   puts "Solving for Hypotenuse:"
   puts "Length of Leg One?"

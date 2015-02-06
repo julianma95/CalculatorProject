@@ -1,3 +1,4 @@
+
 puts "Coulomb's Law Calculator"
 print "Value of charge 1? (coulombs)"
 q = gets.chomp.to_f

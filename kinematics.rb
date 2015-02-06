@@ -15,7 +15,7 @@ if choice == "vf"
   ans1 = a1*t1 + vi1
   puts "Final Velocity:"
   puts ans1
-elsif choice == "a" or choice == "A"
+elsif choice == "a"
   puts "Inital Velocity? (m/s)"
   vi2 = gets.to_f
   puts "Final Velocity? (m/s)?"
