@@ -12,5 +12,4 @@ y2 = gets.to_f
 dist = ((x2-x1)**2 + (y2 -y1)**2)**0.5
 puts "Distance:"
 puts dist
-
 end
